@@ -1,4 +1,4 @@
-# Depression-dataset
+# A multi-scenario depression dataset for ‘MicoDA: Multi-Source Domain Generalization for Speech-based Depression Detection’
 # Multimodal Depression Detection: Audio-Text Fusion Evaluation
 
 This repository provides training code for automatic depression detection based on audio and text modalities. It supports both **early fusion** (feature concatenation → SVM / BiLSTM) and **cross-modal attention fusion** (MulT) strategies. The MulT code is borrowed largely from https://github.com/yaohungt/Multimodal-Transformer. Thank them!
