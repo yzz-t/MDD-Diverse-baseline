@@ -5,6 +5,10 @@ This repository provides training code for automatic depression detection based 
 
 > The audio and text feature extraction scripts are in `feat_extract/`, and all training scripts are in `train/`.
 
+### Data Access
+
+The data are protected. Please download and send the signed EULA to edu.cn for access request.
+
 ---
 
 ## Project Structure
@@ -41,12 +45,6 @@ Each line in the `.txt` file follows the format:
 
 - `<relative_audio_path>`: path to the `.wav` file relative to the data root, e.g. `root/subj01/seg001.wav`
 - `<label>`: `0` for HC (healthy control), `1` for DP (depressed)
-
-
-### Data Access
-
-The data are protected. Please download and send the signed EULA to edu.cn for access request.
-
 
 
 ## Feature Extraction
