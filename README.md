@@ -1,6 +1,7 @@
-# A multi-scenario depression dataset for ‘MicoDA: Multi-Source Domain Generalization for Speech-based Depression Detection’
+# MDD-Diverse: A Multimodal Depression Dataset collected across Diverse scenarios
 
-This repository provides training code for automatic depression detection based on audio and text modalities. It supports both **early fusion** (feature concatenation → SVM / BiLSTM) and **cross-modal attention fusion** (MulT) strategies. The MulT code is borrowed largely from https://github.com/yaohungt/Multimodal-Transformer. Thank them!
+
+The **MDD-Divers** dataset is introduced in our paper **MicoDA: Multi-Source Domain Generalization for Speech-based Depression Detection**, which is specifically designed to tackle the challenges of speech depression detection in multi-source domain generalization for better real-world application. This repository provides training code for automatic depression detection based on audio and text modalities. It supports both **early fusion** (feature concatenation → SVM / BiLSTM) and **cross-modal attention fusion** (MulT) strategies. The MulT code is borrowed largely from https://github.com/yaohungt/Multimodal-Transformer. Thank them!
 
 > The audio and text feature extraction scripts are in `feat_extract/`, and all training scripts are in `train/`.
 
